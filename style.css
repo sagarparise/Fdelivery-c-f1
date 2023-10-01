@@ -6,30 +6,22 @@
 }
 nav
 {
-
+    padding: 20px 50px;
     top: 0;
     z-index: 1;
 }
-#logo-delivery
-{
-    color: #F94A3D;
-    font-size: 30px;
-    font-weight: 700;
-    display: flex;
-    align-items: center;
-}
-ul{
+.list{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-ul > li
+.list > li
 {
     list-style-type: none;
     margin-inline: 20px;
   
 }
-ul > li > a{
+.list > li > a{
     text-decoration: none;
     color: black;
     font-weight: 700;
@@ -65,16 +57,17 @@ ul > li > a{
     width: 20px;
     height: 20px;
 }
-#search-box > a > img
+#search-box > a > i
 {
    
     width: 30px;
     height: 30px;
+   padding: 5px;
+   color: #F94A3D;
 }
 #search-box > button
 {
-    padding-inline: 10px;
-    height: 100%;
+    padding: 10px 17px;
     border: none;
     border-radius: 10px;
     color: white;
@@ -86,7 +79,7 @@ ul > li > a{
 
  #hero-sec
 {
-    width:95%;
+    width:90%;
     height: 720px;
     margin: auto;
     margin-top: 10px;
@@ -154,10 +147,10 @@ ul > li > a{
 
 #about-section
 {
-    width: 95%;
+    width: 90%;
     margin: auto;
-    margin-top: 20px;
-    padding-top: 20px;
+    margin-top: 30px;
+    padding: 20px;
     display: flex;
     gap: 50px;
     align-items: center;
@@ -206,13 +199,14 @@ ul > li > a{
 
 #main-recipe-container
 {
-    width: 95%;
+    width: 90%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 #recipes-card-container
 {
     margin-top: 30px;
+    padding: 20px 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,17 +217,186 @@ ul > li > a{
 .card__recipes
 {
     width: 200px;
-    height: 250px;
+    height: 270px;
     display: flex;
     align-items: center;
     padding-top: 15px !important;
 }
+.card__recipes >img{
+    margin-bottom: 15px;
+}
 .card__recipes > button
 {
     padding: 8px 10px;
-    margin-top: 20px;
     border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
     border: 1px solid #F94A3D;
     color:#F94A3D ;
     background-color: transparent;
+}
+.card__recipes > p > span
+{
+    color: #F94A3D;
+    font-size: 15px;
+    font-weight: 700;
+}
+#testimonial-container
+{
+    width: 90%;
+    height: 720px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#testimonial-body
+{
+    flex: 1;
+    /* height: 400px; */
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.peoples
+{
+    width: 60%;
+    align-self: center;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.peoples > img
+{
+    border-radius: 50%;
+
+}
+.people-details > h3
+{
+    color: #212244;
+    font-size: 20px;
+    font-weight: 500;
+   
+}
+.people-details > p
+{
+    color: #69697B;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 400;
+    
+}
+#people-1
+{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 10px #efeff1;
+}
+#testimonial-text
+{
+    flex: 1;
+    /* height: 370px; */
+    padding-left: 60px;
+    padding-right: 10px;
+    border-left: 2px solid #efeff1;
+}
+#testimonial-text > h2
+{
+    color: #212244;
+    font-size: 48px;
+    font-weight: 640; 
+}
+#coordinator-container
+{
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #efeff1;
+}
+#Coordinator-name > h5
+{
+    color: #212244;
+    font-size: 28px;
+    font-weight: 600;
+}
+#Coordinator-name > p{
+    color: #69697B;
+    font-size: 15px;
+    font-weight: 400;
+}
+#testimonial-text > p{
+    color: #69697B;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: justify;
+}
+#footer-img
+{
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+#footer-img > img{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#ft-contact
+{
+    width: 100%;
+    background: linear-gradient(285deg, #FDF0F3 4%, rgba(255, 253, 242, 0.50) 45%, #FDEEF3 86%);
+    border-top: 1px solid #efeff1;
+}
+
+#ft-container
+{
+    width: 90%;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+   justify-content: space-between;
+}
+#ft-details
+{
+   width: 20vw;
+}
+#ft-details > img
+{
+    height: 28px;
+    margin-bottom: 30px;
+}
+#ft-details > p
+{
+    color: #69697B;
+    font-size: 16px;
+    font-weight: 500;
+}
+.list-1 > h6
+{
+    color: #2E2E2E;
+    margin-bottom: 30px;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+.list-1 > ul > li{
+    list-style-type: none;
+    margin-left: -32px;
+    color: #69697B;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 35px;
+}
+.social-icon > i
+{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 3px;
+    background-color:#212244;
+    color: white;
 }
